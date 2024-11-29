@@ -27,7 +27,7 @@ registry:
               path: "ca.pem"
 
 manager:
-  replicaCount: 1
+  replicaCount: 2
   image:
     repository: ghcr.io/open-component-model/ocm-controller
     pullPolicy: IfNotPresent
